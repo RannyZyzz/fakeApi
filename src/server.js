@@ -23,7 +23,7 @@ function verifyToken(token){
     return jwt.verify(token, SECRET_KEY, (err, decode) => decode !== undefined ? decode : err);
 }
 
-//Check if the user exist in database
+//Check if the user exist in databasee
 function isAuthenticated({email,password}){
     return userbd.users.findIndex(user => user.email === email && user.password === password) !== -1;
 }
