@@ -1,0 +1,1747 @@
+{
+    "login1": [
+      {
+        "status": true,
+        "usuarioLogado": {
+            "localizadorMensageria": "derlandy@mobilesaude.com.br",
+            "login": "derlandy@mobilesaude.com.br",
+            "integracao": {
+                "chaveBeneficiario": "2320170425162943",
+                "ae": "perferendis",
+                "bd": "repellendus",
+                "chave_interna": 57293800
+            }
+        },
+        "beneficiarios": [
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943",
+                    "ae": "voluptatibus",
+                    "bd": "quibusdam",
+                    "chave_interna": 9288701
+                },
+                "matricula": "2320170425162943-0",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-0",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "8646166114",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Derlandy Belchior",
+                "sexo": "F",
+                "dataNascimento": "2017-11-05",
+                "cpf": "92188083970",
+                "celular": "27999826284",
+                "telefone": "8646166114",
+                "email": "derlandy@mobilesaude.com.br",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "tipoUsuario": "T",
+                "grauParentescoId": "01",
+                "grauParentescoDescricao": "Titular",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Básico",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99991",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "BENEFICIARIO",
+                    "nomeCartao": "NOME BENEF. VINTECINCOPO",
+                    "nomeSocialCartao": "NOME SOCIAL VINTECINCOPO"
+                }
+            },
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943-1",
+                    "ae": "animi",
+                    "bd": "distinctio",
+                    "chave_interna": 37949677
+                },
+                "matricula": "2320170425162943-1",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-0",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "4937909985",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Conjuge",
+                "sexo": "F",
+                "dataNascimento": "1987-11-05",
+                "cpf": "65612426291",
+                "celular": "75946497528",
+                "telefone": "6344767671",
+                "email": "laura.uchoa@maia.net",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "complemento": "Casa",
+                "numero": "123",
+                "tipoUsuario": "D",
+                "grauParentescoId": "02",
+                "grauParentescoDescricao": "Esposa(o)",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Básico",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99991",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "BENEFICIARIO",
+                    "nomeCartao": "NOME BENEF. VINTECINCOPO",
+                    "nomeSocialCartao": "NOME SOCIAL VINTECINCOPO"
+     
+                }
+            },
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943-2",
+                    "ae": "deserunt",
+                    "bd": "perspiciatis",
+                    "chave_interna": 2414111
+                },
+                "matricula": "2320170425162943-2",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-0",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "6626007527",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Filho(a)",
+                "sexo": "F",
+                "dataNascimento": "2012-11-05",
+                "cpf": "26693601570",
+                "celular": "75960567928",
+                "telefone": "9540683952",
+                "email": "queiros.valeria@hotmail.com",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "complemento": "Casa",
+                "numero": "123",
+                "tipoUsuario": "D",
+                "grauParentescoId": "03",
+                "grauParentescoDescricao": "Filho(a)",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Básico",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99991",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "LOWCOST",
+                    "nomeCartao": "NOME BENEF. VINTECINCOPO"
+                }
+            },
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943",
+                    "ae": "incidunt",
+                    "bd": "consequatur",
+                    "chave_interna": 323253947
+                },
+                "matricula": "2320170425162943-3",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-3",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "2224489673",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Derlandy Belchior",
+                "sexo": "F",
+                "dataNascimento": "2012-11-05",
+                "cpf": "92188083970",
+                "celular": "27999826284",
+                "telefone": "2224489673",
+                "email": "derlandy@mobilesaude.com.br",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "complemento": "Casa",
+                "numero": "123",
+                "tipoUsuario": "T",
+                "grauParentescoId": "01",
+                "grauParentescoDescricao": "Titular",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Executivo",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99992",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "COOPERADO",
+                    "nomeCartao": "NOME BENEF. VINTECINCOPO"
+                }
+            },
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943-4",
+                    "ae": "eos",
+                    "bd": "excepturi",
+                    "chave_interna": 8
+                },
+                "matricula": "2320170425162943-4",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-3",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "7524220598",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Conjuge",
+                "sexo": "F",
+                "dataNascimento": "1987-11-05",
+                "cpf": "65612426291",
+                "celular": "74937571185",
+                "telefone": "1343852217",
+                "email": "melissa.mendonca@ig.com.br",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "complemento": "Casa",
+                "numero": "123",
+                "tipoUsuario": "D",
+                "grauParentescoId": "02",
+                "grauParentescoDescricao": "Esposa(o)",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Executivo",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99992",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "BENEFICIARIO"
+                }
+            },
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943-5",
+                    "ae": "et",
+                    "bd": "harum",
+                    "chave_interna": 65338931
+                },
+                "matricula": "2320170425162943-5",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-3",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "7321384591",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Filho(a)",
+                "sexo": "F",
+                "dataNascimento": "2012-11-05",
+                "cpf": "26693601570",
+                "celular": "48990552633",
+                "telefone": "4625317453",
+                "email": "alonso.pereira@ig.com.br",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "complemento": "Casa",
+                "numero": "123",
+                "tipoUsuario": "D",
+                "grauParentescoId": "03",
+                "grauParentescoDescricao": "Filho(a)",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Executivo",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99992",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "BENEFICIARIO"
+                }
+            },
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943",
+                    "ae": "perferendis",
+                    "bd": "repellendus",
+                    "chave_interna": 57293800
+                },
+                "matricula": "2320170425162943-6",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-6",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "6741119430",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Derlandy Belchior",
+                "sexo": "F",
+                "dataNascimento": "2007-11-05",
+                "cpf": "92188083970",
+                "celular": "27999826284",
+                "telefone": "6741119430",
+                "email": "derlandy@mobilesaude.com.br",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "complemento": "Casa",
+                "numero": "123",
+                "tipoUsuario": "T",
+                "grauParentescoId": "01",
+                "grauParentescoDescricao": "Titular",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Silver Corporate",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99993",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "BENEFICIARIO"
+                }
+            },
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943-7",
+                    "ae": "est",
+                    "bd": "ipsum",
+                    "chave_interna": 9971
+                },
+                "matricula": "2320170425162943-7",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-6",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "8544016063",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Conjuge",
+                "sexo": "F",
+                "dataNascimento": "1987-11-05",
+                "cpf": "65612426291",
+                "celular": "42986469182",
+                "telefone": "6321180938",
+                "email": "gian70@uol.com.br",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "complemento": "Casa",
+                "numero": "123",
+                "tipoUsuario": "D",
+                "grauParentescoId": "02",
+                "grauParentescoDescricao": "Esposa(o)",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Silver Corporate",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99993",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "BENEFICIARIO"
+                }
+            },
+            {
+                "integracao": {
+                    "chaveBeneficiario": "2320170425162943-8",
+                    "ae": "corrupti",
+                    "bd": "voluptatem",
+                    "chave_interna": 719
+                },
+                "matricula": "2320170425162943-8",
+                "matriculaAntiga": null,
+                "matriculaFuncionario": null,
+                "matriculaTitular": "2320170425162943-6",
+                "nomeTitular": "Derlandy Belchior",
+                "emailTitular": "derlandy@mobilesaude.com.br",
+                "telefoneTitular": "9329153121",
+                "celularTitular": "27999826284",
+                "cpfTitular": "92188083970",
+                "nome": "Filho(a)",
+                "sexo": "F",
+                "dataNascimento": "2012-11-05",
+                "cpf": "26693601570",
+                "celular": "64966730451",
+                "telefone": "4133804867",
+                "email": "tzaragoca@ig.com.br",
+                "endereco": "Avenida Carolina, 2",
+                "bairro": "Guilherme do Sul",
+                "cep": "58895-647",
+                "cidade": "Natália d'Oeste",
+                "estado": "PB",
+                "complemento": "Casa",
+                "numero": "123",
+                "tipoUsuario": "D",
+                "grauParentescoId": "03",
+                "grauParentescoDescricao": "Filho(a)",
+                "dataContratacao": "2012-01-01",
+                "dataInicioCobertura": "2012-01-01",
+                "convenioId": "01",
+                "convenioDescricao": "Plano Silver Corporate",
+                "convenioAbrangencia": "Estadual",
+                "convenioAbrangenciaVerso": "Estadual",
+                "convenioAcomodacao": "Individual",
+                "convenioModalidadeCobranca": "Pós-pagamento",
+                "convenioPadraoConforto": "",
+                "convenioParticipativo": false,
+                "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetrícia",
+                "convenioTipoPessoa": "Pessoa Jurídica",
+                "convenioTipoContrato": "Plano Coletivo Empresarial",
+                "convenioRegulamentacao": "Plano Regulamentado",
+                "cartaoValidade": "05/11/2022",
+                "cartaoVia": 1,
+                "chaveEmpresaContratante": "03",
+                "nomeEmpresaContratante": "Mobile Saúde",
+                "contratoEmpresaContratante": "004",
+                "numeroCns": "999999999999999",
+                "convenioAns": "999.999/99-9",
+                "dataFinalCpt": "Não há",
+                "carencias": [
+                    {
+                        "tipoServico": "ES - Atendimentos Ambulatoriais",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Internações e Outros Procedimentos",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Partos a Termo",
+                        "carencia": "31/12/2012"
+                    },
+                    {
+                        "tipoServico": "ES - Odontologia",
+                        "carencia": "31/12/2012"
+                    }
+                ],
+                "codigoContrato": "99993",
+                "redeAtendimento": null,
+                "modeloCartao": null,
+                "custom": [
+                    {
+                        "chave": "minha_chave_customizada",
+                        "valor": "Meu valor customizado"
+                    }
+                ],
+                "cooperativas": {
+                    "seed": "23202222170425162943",
+                    "unimedContratada": "Unimed Contratada ABC DEF",
+                    "convenioAnsContratada": "1122334",
+                    "layoutCartaoVirtual": "BENEFICIARIO"
+                }
+            }
+        ],
+        "profissionaisSaude": [
+            {
+                "nome": "Derlandy Belchior",
+                "chaveProfissionalSaude": "63718245",
+                "conselhoRegional": "63718245",
+                "siglaConselhoRegional": "CRM",
+                "estadoConselhoRegional": "ES",
+                "titulo": "Dr",
+                "sexo": "M",
+                "dataNascimento": "1985-01-01",
+                "cpf": "99999999900",
+                "celular": "27999826284",
+                "especialidades": [
+                    {
+                        "cboEspecialidadeId": "2.2.5.1.20",
+                        "cboEspecialidadeDescricao": "Cardiologia"
+                    }
+                ],
+                "codigoContrato": "13986450",
+                "email": "derlandy@mobilesaude.com.br"
+            }
+        ],
+        "contratos": [
+            {
+                "nome": "Plano Básico",
+                "codigoContrato": "99991",
+                "permissoes": [
+                    {
+                        "funcionalidade": "0",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "1",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "2",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "3",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "4",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "5",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "6",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "7",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "8",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "9",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "10",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "11",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "12",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "13",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "14",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "15",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "16",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "39",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "17",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "18",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "29",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "89",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "20",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "21",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "38",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "42",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "48",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "46",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "30",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "31",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "33",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "34",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    }
+                ],
+                "tipo": "beneficiario"
+            },
+            {
+                "nome": "Plano Executivo",
+                "codigoContrato": "99992",
+                "permissoes": [
+                    {
+                        "funcionalidade": "0",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "1",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "2",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "3",
+                        "acesso": false,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "4",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "5",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "6",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "7",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "8",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "9",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "10",
+                        "acesso": false,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "11",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "12",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "13",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "14",
+                        "acesso": false,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "15",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "16",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "39",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "17",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "18",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "29",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "89",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "20",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "21",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "38",
+                        "acesso": false,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "42",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "48",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "46",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "30",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "31",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "33",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "34",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    }
+                ],
+                "tipo": "beneficiario"
+            },
+            {
+                "nome": "Plano Silver Corporate",
+                "codigoContrato": "99993",
+                "permissoes": [
+                    {
+                        "funcionalidade": "0",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "1",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "2",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "3",
+                        "acesso": false,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "4",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "5",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "6",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "7",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "8",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "9",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "10",
+                        "acesso": false,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "11",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "12",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "13",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "14",
+                        "acesso": false,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "15",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "16",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "39",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "17",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "18",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "29",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "89",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "20",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "21",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "38",
+                        "acesso": false,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "42",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "48",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "46",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": true
+                    },
+                    {
+                        "funcionalidade": "30",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "31",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "33",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "34",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    }
+                ],
+                "tipo": "beneficiario"
+            },
+            {
+                "nome": "Cooperado Cooperativas",
+                "codigoContrato": "13986450",
+                "permissoes": [
+                    {
+                        "funcionalidade": "102",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "103",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "105",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "106",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "110",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    },
+                    {
+                        "funcionalidade": "32",
+                        "acesso": true,
+                        "mensagemBloqueio": null,
+                        "ocultar": false
+                    }
+                ],
+                "tipo": "profissional_saude"
+            }
+        ],
+        "mosia": {
+            "callerKey": "derlandy@mobilesaude.com.br",
+            "callerEmail": "derlandy@mobilesaude.com.br",
+            "callerName": "Derlandy Belchior",
+            "callerPhone": "27999826284",
+            "allocationAgent": null,
+            "allocationQueue": null
+        },
+        "agenteRelacionamento": [
+            {
+                "nome": "Salomé Irene Godói Jr.",
+                "telefone1": "34940972035",
+                "telefone2": "47984672759",
+                "email": "carolina.mascarenhas@salas.com.br",
+                "linkFoto": "https://randomuser.me/api/portraits/women/17.jpg",
+                "tituloApresentacao": "Beneficiário"
+            },
+            {
+                "nome": "Dr. Isabel Paulina Lozano Neto",
+                "telefone1": "15973656244",
+                "telefone2": "4933875727",
+                "email": "rafael15@zaragoca.com",
+                "linkFoto": "https://randomuser.me/api/portraits/women/18.jpg",
+                "tituloApresentacao": "Cooperado"
+            }
+        ]
+    }
+    ],
+
+
+
+
+
+
+
+
+
+
+
+    
+    "login2": [
+      {
+        "status": true,
+        "usuarioLogado": {
+          "localizadorMensageria": "037.1755219",
+          "login": "037.1755219",
+          "integracao": {
+            "chaveBeneficiario": "2078943"
+          }
+        },
+        "beneficiarios": [
+          {
+            "matricula": "037.1755219",
+            "matriculaTitular": "037.1755219",
+            "nomeTitular": "RAFAEL FERRETTI SIMOES SANTOS",
+            "emailTitular": "rafael@samp.com.br",
+            "celularTitular": "(43) 991616033",
+            "nome": "RAFAEL FERRETTI SIMOES SANTOS",
+            "sexo": "M",
+            "dataNascimento": "1983-01-02",
+            "cpf": "09994497707",
+            "celular": "(43) 991616033",
+            "email": "rafael@samp.com.br",
+            "endereco": "ROMANA",
+            "bairro": "CIDADE CONTINENTAL SETOR EUROPA",
+            "cep": "29163518",
+            "cidade": "SERRA",
+            "estado": "ES",
+            "tipoUsuario": "T",
+            "grauParentescoId": "X",
+            "grauParentescoDescricao": "Titular",
+            "dataContratacao": "2015-02-01",
+            "dataInicioCobertura": "2015-05-01",
+            "convenioId": "311",
+            "convenioDescricao": "BASICO PARTIC ENFERMARIA COLETIVO EMPRESARIAL",
+            "convenioAbrangencia": "Grupo de municípios",
+            "convenioAcomodacao": "ENFERMARIA",
+            "convenioModalidadeCobranca": "1",
+            "convenioParticipativo": true,
+            "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetricia",
+            "convenioTipoCOntrato": "Coletivo empresarial",
+            "convenioRegulamentacao": "Regulamentado",
+            "cartaoVia": "2",
+            "chaveEmpresaContratante": "114",
+            "nomeEmpresaContratante": "SAMP ESPIRITO SANTO ASSISTENCIA MEDICA SA",
+            "contratoEmpresaContratante": "167875864",
+            "numeroCns": "702909578645077",
+            "convenioAns": "467469123",
+            "dataFinalCpt": "2015-05-01 00:00:00.0",
+            "codigoContrato": "167875864",
+            "redeAtendimento": "037 ENFERMARIA | 037 SAMES (EXCETO AMB.) | 037 SAMES (TODOS PLANOS)",
+            "modeloCartao": "samp_azul",
+            "integracao": {
+              "chaveBeneficiario": "2078943",
+              "chavePlano": "102501419"
+            },
+            "carencias": [
+              {
+                "tipoServico": "CONSULTAS",
+                "carencia": "01/05/2015"
+              },
+              {
+                "tipoServico": "INTERMEDIARIOS",
+                "carencia": "01/05/2015"
+              },
+              {
+                "tipoServico": "ESPECIALIZADOS",
+                "carencia": "01/05/2015"
+              },
+              {
+                "tipoServico": "INTERNACOES CLINICAS",
+                "carencia": "01/05/2015"
+              },
+              {
+                "tipoServico": "INTERNACOES CIRURGICAS",
+                "carencia": "01/05/2015"
+              },
+              {
+                "tipoServico": "PRE-EXISTENCIA (CPT)",
+                "carencia": "01/05/2015"
+              },
+              {
+                "tipoServico": "SIMPLES",
+                "carencia": "01/05/2015"
+              },
+              {
+                "tipoServico": "PARTOS",
+                "carencia": "25/02/2016"
+              }
+            ],
+            "custom": [
+              {
+                "chave": "numeroContrato",
+                "valor": "037.00001142"
+              }
+            ]
+          },
+          {
+            "matricula": "037.2343802",
+            "matriculaTitular": "037.1755219",
+            "nomeTitular": "RAFAEL FERRETTI SIMOES SANTOS",
+            "emailTitular": "rafael@samp.com.br",
+            "celularTitular": "(43) 991616033",
+            "nome": "MARIA EDUARDA VASCONCELLOS FERRETTI",
+            "sexo": "F",
+            "dataNascimento": "2017-04-26",
+            "cpf": "19933877739",
+            "email": "krikaramos2@hotmail.com",
+            "cidade": ".",
+            "estado": ".",
+            "tipoUsuario": "D",
+            "grauParentescoId": "F",
+            "grauParentescoDescricao": "Filho(a)",
+            "dataContratacao": "2015-02-01",
+            "dataInicioCobertura": "2019-05-01",
+            "convenioId": "311",
+            "convenioDescricao": "BASICO PARTIC ENFERMARIA COLETIVO EMPRESARIAL",
+            "convenioAbrangencia": "Grupo de municípios",
+            "convenioAcomodacao": "ENFERMARIA",
+            "convenioModalidadeCobranca": "1",
+            "convenioParticipativo": true,
+            "convenioSegmentacao": "Ambulatorial + Hospitalar com obstetricia",
+            "convenioTipoCOntrato": "Coletivo empresarial",
+            "convenioRegulamentacao": "Regulamentado",
+            "cartaoVia": "1",
+            "chaveEmpresaContratante": "114",
+            "nomeEmpresaContratante": "SAMP ESPIRITO SANTO ASSISTENCIA MEDICA SA",
+            "contratoEmpresaContratante": "167875864",
+            "numeroCns": "700201915144321",
+            "convenioAns": "467469123",
+            "dataFinalCpt": "2021-04-20 00:00:00.0",
+            "codigoContrato": "167875864",
+            "redeAtendimento": "037 ENFERMARIA | 037 SAMES (EXCETO AMB.) | 037 SAMES (TODOS PLANOS)",
+            "modeloCartao": "samp_azul",
+            "integracao": {
+              "chaveBeneficiario": "2871127",
+              "chavePlano": "102501419"
+            },
+            "carencias": [
+              {
+                "tipoServico": "CONSULTAS",
+                "carencia": "01/05/2019"
+              },
+              {
+                "tipoServico": "INTERMEDIARIOS",
+                "carencia": "30/07/2019"
+              },
+              {
+                "tipoServico": "ESPECIALIZADOS",
+                "carencia": "28/10/2019"
+              },
+              {
+                "tipoServico": "INTERNACOES CLINICAS",
+                "carencia": "28/10/2019"
+              },
+              {
+                "tipoServico": "INTERNACOES CIRURGICAS",
+                "carencia": "28/10/2019"
+              },
+              {
+                "tipoServico": "PRE-EXISTENCIA (CPT)",
+                "carencia": "20/04/2021"
+              },
+              {
+                "tipoServico": "SIMPLES",
+                "carencia": "01/05/2019"
+              },
+              {
+                "tipoServico": "PARTOS",
+                "carencia": "25/02/2020"
+              }
+            ],
+            "custom": [
+              {
+                "chave": "numeroContrato",
+                "valor": "037.00001142"
+              }
+            ]
+          }
+        ],
+        "contratos": [
+          {
+            "nome": "AMB.HOSP.ENF.REGION.",
+            "codigoContrato": "167875864",
+            "tipo": "beneficiario",
+            "permissoes": [
+              {
+                "funcionalidade": "14",
+                "acesso": false,
+                "ocultar": true
+              },
+              {
+                "funcionalidade": "20",
+                "acesso": false,
+                "ocultar": true
+              }
+            ]
+          }
+        ],
+        "agenteRelacionamento": [
+          {
+            "nome": "Agendamento",
+            "telefone1": "(27) 3061-8700"
+          },
+          {
+            "nome": "SAC Samp",
+            "telefone1": "3334-9015"
+          },
+          {
+            "nome": "Autorização",
+            "telefone1": "3334-9010"
+          },
+          {
+            "nome": "SAC (O800)",
+            "telefone1": "0800 025 9000"
+          }
+        ],
+        "timestamp": "2021-01-19 14:41:26+0000"
+      }
+    ]
+}
