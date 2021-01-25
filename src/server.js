@@ -96,6 +96,191 @@ server.post('/auth/login' , (req, res) => {
     }
 })
 
+
+
+// Extrato de Utilização de coparticipação
+
+server.post('/extrato', (req, res) => {
+    console.log("extrato endpoint called: request body:");
+    console.log(req.body);
+    const {mes, ano} = req.body;
+
+    if(req.headers.authorization == undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
+        const status = 401;
+        const message = 'Error in authorization format';
+        res.status(status).json({status, message});
+        return;
+    }
+    try{
+        let verifyTokenResult;
+        verifyTokenResult = verifyToken(req.headers.authorization.split(' ')[1]);
+
+        if(verifyTokenResult instanceof Error){
+            const status = 401
+            const message = 'Acess token not provided';
+            res.status(status).json({status, message});
+            return
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Error access_token is revoked';
+        res.status(status).json({status, message});
+    }
+
+    try{
+        if(mes == '08' && ano == '1990'){
+            res.status(200).json(router.extrato);
+            console.log('return: ');
+            console.log(router.extrato);
+        }else{
+            const status = 401;
+            const message = "ano and mes don't have extrats!";
+            res.status(status).json({status, message});
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Request time out!';
+        res.status(status).json({status, message});
+    }
+})
+
+
+//Débitos
+
+server.post('/listaDebitos', (req, res) => {
+    console.log("listaDebitos endpoint called: request body:");
+    console.log(req.body);
+    const {chaveBeneficiario} = req.body;
+
+    if(req.headers.authorization == undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
+        const status = 401;
+        const message = 'Error in authorization format';
+        res.status(status).json({status, message});
+        return;
+    }
+    try{
+        let verifyTokenResult;
+        verifyTokenResult = verifyToken(req.headers.authorization.split(' ')[1]);
+
+        if(verifyTokenResult instanceof Error){
+            const status = 401
+            const message = 'Acess token not provided';
+            res.status(status).json({status, message});
+            return
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Error access_token is revoked';
+        res.status(status).json({status, message});
+    }
+
+    try{
+        if(chaveBeneficiario == '2320170425162943'){
+            res.status(200).json(router.listaDebitos);
+            console.log('return: ');
+            console.log(router.listaDebitos);
+        }else{
+            const status = 401;
+            const message = `This chaveBeneficiario: ${chaveBeneficiario} dont have debits`;
+            res.status(status).json({status, message});
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Request time out!';
+        res.status(status).json({status, message});
+    }
+})
+
+server.post('/detalheDebito', (req, res) => {
+    console.log("detalheDebito endpoint called: request body:");
+    console.log(req.body);
+    const {tituloCodigo , tituloId} = req.body;
+
+    if(req.headers.authorization == undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
+        const status = 401;
+        const message = 'Error in authorization format';
+        res.status(status).json({status, message});
+        return;
+    }
+    try{
+        let verifyTokenResult;
+        verifyTokenResult = verifyToken(req.headers.authorization.split(' ')[1]);
+
+        if(verifyTokenResult instanceof Error){
+            const status = 401
+            const message = 'Acess token not provided';
+            res.status(status).json({status, message});
+            return
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Error access_token is revoked';
+        res.status(status).json({status, message});
+    }
+
+    try{
+        if(tituloCodigo == 'MS00590' && tituloId == '590'){
+            res.status(200).json(router.detalheDebito);
+            console.log('return: ');
+            console.log(router.detalheDebito);
+        }else{
+            const status = 401;
+            const message = `This tituloCodigo: ${tituloCodigo} and tituloId: ${tituloId} dont have details debits`;
+            res.status(status).json({status, message});
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Request time out!';
+        res.status(status).json({status, message});
+    }
+})
+
+
+server.post('/boletoPdf', (req, res) => {
+    console.log("boletoPdf endpoint called: request body:");
+    console.log(req.body);
+    const {tituloCodigo} = req.body;
+
+    if(req.headers.authorization == undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
+        const status = 401;
+        const message = 'Error in authorization format';
+        res.status(status).json({status, message});
+        return;
+    }
+    try{
+        let verifyTokenResult;
+        verifyTokenResult = verifyToken(req.headers.authorization.split(' ')[1]);
+
+        if(verifyTokenResult instanceof Error){
+            const status = 401
+            const message = 'Acess token not provided';
+            res.status(status).json({status, message});
+            return
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Error access_token is revoked';
+        res.status(status).json({status, message});
+    }
+
+    try{
+        if(tituloCodigo == 'MS00590'){
+            res.status(200).json(router.boletoPdf);
+            console.log('return: ');
+            console.log(router.boletoPdf);
+        }else{
+            const status = 401;
+            const message = `This tituloCodigo: ${tituloCodigo} dont have PDF`;
+            res.status(status).json({status, message});
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Request time out!';
+        res.status(status).json({status, message});
+    }
+})
+
+
 server.listen(8000, () =>{
     console.log('Run Auth API Server');
 })
