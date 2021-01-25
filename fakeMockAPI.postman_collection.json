@@ -1,0 +1,274 @@
+{
+	"info": {
+		"_postman_id": "5b47e104-6d7b-464b-a251-5704dbaf1490",
+		"name": "fakeMockAPI",
+		"description": "Fake API mock para fins de desenvolvimento da Mobile Saúde.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ExtratoUtilizacaoCoparticipacao",
+			"item": [
+				{
+					"name": "extrato",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhbm5pZXJAbW9iaWxlc2F1ZGUuY29tLmJyIiwicGFzc3dvcmQiOiJtb2JpMDQwNiIsImlhdCI6MTYxMTU0MDc4NywiZXhwIjoxNjExNTQ0Mzg3fQ.C14X27f8f73KToFaBwgxFH4szug9YlOBxqL4OcNbReY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"mes\":\"08\",\n\t\"ano\":\"1990\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fakeApi.asaventurasaven.repl.co/extrato",
+							"protocol": "https",
+							"host": [
+								"fakeApi",
+								"asaventurasaven",
+								"repl",
+								"co"
+							],
+							"path": [
+								"extrato"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Debitos",
+			"item": [
+				{
+					"name": "listaDebitos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"chaveBeneficiario\":\"2320170425162943\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fakeApi.asaventurasaven.repl.co/listaDebitos",
+							"protocol": "https",
+							"host": [
+								"fakeApi",
+								"asaventurasaven",
+								"repl",
+								"co"
+							],
+							"path": [
+								"listaDebitos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "detalheDebito",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"tituloCodigo\": \"MS00590\",\n  \"tituloId\": \"590\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fakeApi.asaventurasaven.repl.co/detalheDebito",
+							"protocol": "https",
+							"host": [
+								"fakeApi",
+								"asaventurasaven",
+								"repl",
+								"co"
+							],
+							"path": [
+								"detalheDebito"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "boletoPdf",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhbm5pZXJAbW9iaWxlc2F1ZGUuY29tLmJyIiwicGFzc3dvcmQiOiJtb2JpMDQwNiIsImlhdCI6MTYxMTU0MDc4NywiZXhwIjoxNjExNTQ0Mzg3fQ.C14X27f8f73KToFaBwgxFH4szug9YlOBxqL4OcNbReY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"tituloCodigo\": \"MS00590\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/boletoPdf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"boletoPdf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhbm5pZXJAbW9iaWxlc2F1ZGUuY29tLmJyIiwicGFzc3dvcmQiOiJtb2JpMDQwNiIsImlhdCI6MTYxMTU0MDc4NywiZXhwIjoxNjExNTQ0Mzg3fQ.C14X27f8f73KToFaBwgxFH4szug9YlOBxqL4OcNbReY",
+						"type": "string"
+					}
+				]
+			}
+		},
+		{
+			"name": "token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"rannier@mobilesaude.com.br\",\n\t\"password\":\"mobi0406\"\n}"
+				},
+				"url": {
+					"raw": "https://fakeApi.asaventurasaven.repl.co/auth/token",
+					"protocol": "https",
+					"host": [
+						"fakeApi",
+						"asaventurasaven",
+						"repl",
+						"co"
+					],
+					"path": [
+						"auth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhbm5pZXJAbW9iaWxlc2F1ZGUuY29tLmJyIiwicGFzc3dvcmQiOiJtb2JpMDQwNiIsImlhdCI6MTYxMTU0MDc4NywiZXhwIjoxNjExNTQ0Mzg3fQ.C14X27f8f73KToFaBwgxFH4szug9YlOBxqL4OcNbReY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{Authorization}}",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"rannier@mobilesaude.com.br\",\n    \"password\": \"mobi0406\"\n}"
+				},
+				"url": {
+					"raw": "https://fakeApi.asaventurasaven.repl.co/auth/login",
+					"protocol": "https",
+					"host": [
+						"fakeApi",
+						"asaventurasaven",
+						"repl",
+						"co"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Authorization",
+			"value": ""
+		}
+	]
+}
