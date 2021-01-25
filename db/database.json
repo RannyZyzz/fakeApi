@@ -1866,8 +1866,17 @@
         }
     ],
 
+    "trocarSenha": [
+        {
+            "status": true
+        }
+    ],
 
-
+    "reiniciarSenha": [
+        {
+            "status": true
+        }
+    ],
 
 
     "listaDebitos": [

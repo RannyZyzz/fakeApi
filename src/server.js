@@ -84,9 +84,9 @@ server.post('/auth/login' , (req, res) => {
             res.status(200).json(router.login2);
             console.log(router.login2);
         }else {
-            const status = 401
-            const message = 'Login or password wrong';
-            res.status(status).json({status, message});
+            const status = false;
+            const motivoCritica = 'Login or password wrong';
+            res.status(401).json({status, motivoCritica});
         }
     } catch (err) {
         const status = 401
@@ -95,6 +95,158 @@ server.post('/auth/login' , (req, res) => {
     
     }
 })
+
+
+// trocarSenha
+server.post('/auth/trocarSenha', (req, res) => {
+    console.log("trocarSenha endpoint called: request body:");
+    console.log(req.body);
+    const {senhaAtual, novaSenha} = req.body;
+
+    if (req.headers.authorization == undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
+        const status = 401;
+        const message = 'Error in authorization format';
+        res.status(status).json({status, message});
+        return
+    }
+    try{
+        let verifyTokenResult;
+        verifyTokenResult = verifyToken(req.headers.authorization.split(' ')[1]);
+
+        if(verifyTokenResult instanceof Error){
+            const status = 401
+            const message = 'Acess token not provided';
+            res.status(status).json({status, message});
+            return
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Error access_token is revoked';
+        res.status(status).json({status, message});
+    }
+
+    try{
+        if(senhaAtual == "mobi0406" && novaSenha != ""){
+            res.status(200).json(router.trocarSenha);
+            console.log('return: ');
+            console.log(router.trocarSenha);
+        }else{
+            const status = false;
+            const motivoCritica = "senhaAtual or novaSenha not valid!";
+            res.status(401).json({status, motivoCritica});
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Request time out!';
+        res.status(status).json({status, message});
+    }
+
+})
+
+
+
+// novoUsuario
+server.post('/auth/novoUsuario' , (req, res) => {
+    
+    console.log("novoUsuario endpoint called: request boby:");
+    console.log(req.body);
+    const  {login, dataNascimento, email} = req.body;
+
+    if (req.headers.authorization == undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
+        const status = 401;
+        const message = 'Error in authorization format';
+        res.status(status).json({status, message});
+        return
+    }
+    try{
+        let verifyTokenResult;
+        verifyTokenResult = verifyToken(req.headers.authorization.split(' ')[1]);
+
+        if(verifyTokenResult instanceof Error) {
+            const status = 401;
+            const message = 'Access token not provided';
+            res.status(status).json({status, message});
+            return
+        }
+    } catch (err) {
+        const status = 401
+        const message = 'Error access_token is revoked';
+        res.status(status).json({status, message});
+    }
+
+    try{
+        if(login == "92188083970" && dataNascimento == "2017-11-05" && email == "derlandy@mobilesaude.com.br"){
+            res.status(200).json(router.login1);
+            console.log(router.login1);
+        }else if(login == "09994497707" && dataNascimento == "1983-01-02" && email == "rafael@samp.com.b"){
+            res.status(200).json(router.login2);
+            console.log(router.login2);
+        }else {
+            const status = false;
+            const motivoCritica = 'Dados inválidos, verifique os dados informados';
+            res.status(401).json({status, motivoCritica});
+        }
+    } catch (err) {
+        const status = 401;
+        const message = 'Request time out!';
+        res.status(status).json({status, message});
+    
+    }
+})
+
+
+
+
+// reiniciarSenha
+server.post('/auth/reiniciarSenha' , (req, res) => {
+    
+    console.log("reiniciarSenha endpoint called: request boby:");
+    console.log(req.body);
+    const  {login, dataNascimento, email} = req.body;
+
+    if (req.headers.authorization == undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
+        const status = 401;
+        const message = 'Error in authorization format';
+        res.status(status).json({status, message});
+        return
+    }
+    try{
+        let verifyTokenResult;
+        verifyTokenResult = verifyToken(req.headers.authorization.split(' ')[1]);
+
+        if(verifyTokenResult instanceof Error) {
+            const status = 401;
+            const message = 'Access token not provided';
+            res.status(status).json({status, message});
+            return
+        }
+    } catch (err) {
+        const status = 401
+        const message = 'Error access_token is revoked';
+        res.status(status).json({status, message});
+    }
+
+    try{
+        if(login == "92188083970" && dataNascimento == "2017-11-05" && email == "derlandy@mobilesaude.com.br"){
+            res.status(200).json(router.reiniciarSenha);
+            console.log(router.reiniciarSenha);
+        }else if(login == "09994497707" && dataNascimento == "1983-01-02" && email == "rafael@samp.com.b"){
+            res.status(200).json(router.reiniciarSenha);
+            console.log(router.reiniciarSenha);
+        }else {
+            const status = false;
+            const motivoCritica = 'Dados inválidos, verifique os dados informados';
+            res.status(401).json({status, motivoCritica});
+        }
+    } catch (err) {
+        const status = 401
+        const message = 'Request time out!';
+        res.status(status).json({status, message});
+    
+    }
+})
+
+
 
 
 
